@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>File Metadata Microservice</title>  
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <div class="container">
+        <p>Submit a file to view its filesize.</p>
+        <form action="/get-file-info" method="post" enctype="multipart/form-data"> 
+          <input type="file" name="file">
+          <button type="submit">提交</button>
+        </form>
+      </div>
+   </body>
+</html>
